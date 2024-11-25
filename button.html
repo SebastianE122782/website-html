@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .button-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Space between buttons */
+        }
+        .button-menu button {
+            padding: 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff; /* Bootstrap primary color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .button-menu button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
+        .button-menu button:active {
+            transform: translateY(0); /* Return to original position on click */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-menu">
+        <button onclick="window.location.href='page1.html'">Page 1</button>
+        <button onclick="window.location.href='page2.html'">Page 2</button>
+        <button onclick="window.location.href='page3.html'">Page 3</button>
+        <button onclick="window.location.href='page4.html'">Page 4</button>
+    </div>
+</body>
+</html>
