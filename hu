@@ -1,5 +1,9 @@
-<html><head>
-</head><body data-new-gr-c-s-check-loaded="14.1235.0" data-gr-ext-installed=""><title="title">
+<html>
+  <head>
+    <link rel="icon" href="https://raw.githubusercontent.com/SebastianE122782/website-html/main/mrcode10s.png" type="image/png">
+    <title>Code1</title>
+  </head>
+<body data-new-gr-c-s-check-loaded="14.1235.0" data-gr-ext-installed=""><title="title">
 <style>
 body {
 min-width: 100vw;
